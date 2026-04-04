@@ -1,12 +1,15 @@
 def add(a, b):
-    # This is a simple addition
+    """Adds two numbers"""
     return a + b
 
 def subtract(a, b):
-    # This is a simple subtraction
+    """Subtracts two numbers"""
     return a - b
 
 def divide(a, b):
     if b == 0:
         raise ValueError("Cannot divide by zero")
     return a / b
+
+def multiply(a, b):
+    return a * b
